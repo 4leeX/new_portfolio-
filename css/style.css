@@ -552,6 +552,7 @@ header
     flex: 0 0 100%;
     max-width: 100%;
     text-align: center;
+    margin-bottom: 20px;
 }
 .portfolio-section .filter-item{
     display: inline;
@@ -569,4 +570,22 @@ header
 }
 .portfolio-section .filter-item.active{
     color: var(--text-black-300);
+}
+.portfolio-section .portfolio-item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+}
+.portfolio-section .portfolio-item-inner{
+    border-radius: 10%;
+}
+.portfolio-section .portfolio-item-inner-img img{
+    border-radius: 50%;
+    width: 100%;
+}
+.portfolio-section .portfolio-item-inner-img .view-project{
+    display: none;
+}
+.portfolio-section .portfolio-item-details{
+    display: none;
 }
