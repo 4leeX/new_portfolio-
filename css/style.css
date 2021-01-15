@@ -28,7 +28,7 @@ body{
     overflow-x: hidden;
     background-color: var(--bg-black-50);
 }
-body.stop-scrolling{
+body.hidden-scrolling{
     overflow-y: hidden;
 }
 
@@ -682,6 +682,10 @@ header
     max-height: 0;
     overflow: hidden;
     opacity: 0;
+    transition: all 0.5s ease;
+}
+.portfolio-popup .pp-details.active{
+    opacity: 1;
 }
 .portfolio-popup .pp-details-inner{
     padding: 30px 0;
@@ -724,6 +728,7 @@ header
 }
 .portfolio-popup .description p span{
     font-weight: 400;
+    text-transform: capitalize;
 }
 .portfolio-popup .info{
     flex: 0 0 35%;
@@ -739,6 +744,9 @@ header
 }
 .portfolio-popup .info ul li span{
     font-weight: 400;
+}
+.portfolio-popup .info ul li a{
+    color: red;
 }
 .portfolio-popup .info ul li:last-child{
     margin-bottom: 0;
