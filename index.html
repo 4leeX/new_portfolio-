@@ -12,14 +12,6 @@
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
-  <link rel="stylesheet" type="text/css" href="css/skins/color-1.css">
-
-  <link rel="stylesheet" type="text/css" class="alternate-style" title="color-1" href="css/skins/color-1.css" disabled>
-  <link rel="stylesheet" type="text/css" class="alternate-style" title="color-2" href="css/skins/color-2.css" disabled>
-  <link rel="stylesheet" type="text/css" class="alternate-style" title="color-3" href="css/skins/color-3.css" disabled>
-  <link rel="stylesheet" type="text/css" class="alternate-style" title="color-4" href="css/skins/color-4.css" disabled>
-  <link rel="stylesheet" type="text/css" class="alternate-style" title="color-5" href="css/skins/color-5.css" disabled>
-
   <link rel="stylesheet" type="text/css" href="css/style-switcher.css">
 </head>
 
@@ -46,11 +38,9 @@
       <div class="nav-menu-inner">
         <ul>
           <li><a href="#home" class="link-item inner-shadow active">home</a></li>
-          <li><a href="#about" class="link-item outer-shadow hover-in-shadow">about</a></li>
-          <li><a href="#services" class="link-item outer-shadow hover-in-shadow">services</a></li>
-          <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">portfolio</a></li>
-          <li><a href="#testimonial" class="link-item outer-shadow hover-in-shadow">testimonial</a></li>
-          <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">contact</a></li>
+          <li><a href="#about" class="link-item outer-shadow hover-in-shadow">Sobre</a></li>
+          <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">Portifólio</a></li>
+          <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">Contato</a></li>
         </ul>
       </div>
       <!-- COPYRIGHT TEXT -->
@@ -86,20 +76,20 @@
       <div class="container">
         <div class="row">
           <div class="section-title">
-            <h2 data-heading="main info">Sobre mim</h2>
+            <h2 data-heading="info">Sobre mim</h2>
           </div>
         </div>
         <div class="row">
           <div class="about-img">
             <div class="img-box">
-              <img src="img/profile-pic.png" class="outer-shadow" alt="profile-pic">
+              <img src="img/portal.gif" class="outer-shadow" alt="profile-pic">
             </div>
             <!-- social links start -->
             <div class="social-links">
-              <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-github"></i></a>
+              <a href="https://github.com/4leeX" class="outer-shadow hover-in-shadow"><i class="fab fa-github"></i></a>
               <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-twitter"></i></a>
               <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-steam"></i></a>
+              <a href="#" class="outer-shadow hover-in-shadow"><i class="fas fa-at"></i></i></a>
             </div>
             <!-- social links end -->
           </div>
@@ -123,26 +113,22 @@
           <div class="row">
             <div class="skills tab-content active">
               <div class="row">
+
                 <!-- skill item start -->
-                <div class="skill-item">
-                  <p>Html</p>
-                  <div class="progress inner-shadow">
-                    <div class="progress-bar" style="width: calc(50% - 14px)">
-                      <span>50%</span>
-                    </div>
-                  </div>
+                <div class="skill">
+                  <a class="btn-4 outer-shadow hover-in-shadow">AWS</a>
+                  <a class="btn-4 outer-shadow hover-in-shadow">AWS</a>
+                  <a class="btn-4 outer-shadow hover-in-shadow">AWS</a>
+                  <a class="btn-4 outer-shadow hover-in-shadow">AWS</a>
+                  <a class="btn-4 outer-shadow hover-in-shadow">Java Script</a>
+                  <a class="btn-4 outer-shadow hover-in-shadow">Java Script</a>
+                  <a class="btn-4 outer-shadow hover-in-shadow">Java Script</a>
+                  <a class="btn-4 outer-shadow hover-in-shadow">Java Script</a>
+                  <a class="btn-4 outer-shadow hover-in-shadow">Java Script</a>
+                  <a class="btn-4 outer-shadow hover-in-shadow">Java Script</a>
                 </div>
                 <!-- skill item end -->
-                <!-- skill item start -->
-                <div class="skill-item">
-                  <p>JavaScript</p>
-                  <div class="progress inner-shadow">
-                    <div class="progress-bar" style="width: calc(60% - 14px)">
-                      <span>60%</span>
-                    </div>
-                  </div>
-                </div>
-                <!-- skill item end -->
+                
               </div>
             </div>
           </div>
@@ -225,7 +211,7 @@
       <div class="container">
         <div class="row">
           <div class="section-title">
-            <h2 data-heading="portfolio">Latest Works</h2>
+            <h2 data-heading="portifólio">Últimos Projetos</h2>
           </div>
         </div>
         <!-- portfolio filter start -->
@@ -520,7 +506,7 @@
       <div class="container">
         <div class="row">
           <div class="section-title">
-            <h2 data-heading="contact">Contato</h2>
+            <h2 data-heading="">Contato</h2>
           </div>
         </div>
         <div class="row">
@@ -595,21 +581,15 @@
 
   <!-- style switcher start - demo -->
   <div class="style-switcher outer-shadow">
-    <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
+    <div class="style-switcher-toggler">
       <i class="fas fa-cog fa-spin"></i>
     </div>
+    
     <div class="day-night s-icon outer-shadow hover-in-shadow">
       <i class="fas"></i>
     </div>
 
-    <h4>Light</h4>
-    <div class="colors">
-      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
-      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-    </div>
+    
   </div>
   <!-- style switcher end - demo -->
 
