@@ -180,8 +180,8 @@ header
     width: 40px;
     font-size: 24px;
     border-radius: 10%;
-    color: #fb839e;
-    border: 2px solid #fb839e;
+    color: var(--text-black-700);
+    border: 2px solid var(--text-black-700);
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -367,7 +367,7 @@ header
 .home-section .home-text h1{
     font-size: 20px;
     font-weight: 300;
-    color: var(--text-black-700);
+    color: var(--text-black-600);
     margin: 0;
     text-transform: capitalize;
 }
@@ -410,7 +410,7 @@ header
 .about-section .about-img .img-box img{ /* segunda imagem */
     width: 100%;
     border: 10px solid transparent;
-    border-radius: 10%;
+    border-radius: 50%;
 }
 
 .about-section .about-img .social-links{

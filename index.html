@@ -4,9 +4,12 @@
   <meta charset="utf-8">
   <title>Personal Portfolio Website</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  
   <!-- font awesome -->
   <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
   <!-- main css -->
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
   <link rel="stylesheet" type="text/css" href="css/skins/color-1.css">
@@ -20,7 +23,7 @@
   <link rel="stylesheet" type="text/css" href="css/style-switcher.css">
 </head>
 
-<body>
+<body class="dark">
 
   <!-- header start -->
   <header class="header">
@@ -65,8 +68,8 @@
           <div class="home-text">
             <p>Hello</p>
             <h2>I'm Alexsandro👋</h2>
-            <h1>full stack developer</h1>
-            <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">More About Me</a>
+            <h1>Back-end Developer</h1>
+            <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">Mais Sobre</a>
           </div>
           <div class="home-img">
             <div class="img-box">
@@ -83,12 +86,12 @@
       <div class="container">
         <div class="row">
           <div class="section-title">
-            <h2 data-heading="main info">About Me</h2>
+            <h2 data-heading="main info">Sobre mim</h2>
           </div>
         </div>
         <div class="row">
           <div class="about-img">
-            <div class="img-box inner-shadow">
+            <div class="img-box">
               <img src="img/profile-pic.png" class="outer-shadow" alt="profile-pic">
             </div>
             <!-- social links start -->
@@ -102,16 +105,16 @@
           </div>
           <div class="about-info">
             <p><span>I am Alexsandro, Web developer.</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at ex vel ipsum lobortis blandit. Morbi faucibus ultricies feugiat. Suspendisse potenti. Nullam congue felis nec orci elementum, eget hendrerit urna sodales. Maecenas arcu ipsum, pretium nec tellus sed, rutrum placerat diam. Proin id nisl dolor. Vivamus tristique eleifend sodales. Suspendisse molestie, mauris ac porttitor varius, lacus felis commodo justo, in mollis erat neque in neque. Proin ornare porttitor enim. Fusce rutrum dictum dignissim. Cras lobortis aliquam libero, eget feugiat dolor egestas ac.</p>
-            <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">Curriculum Vitae</a>
-            <a href="#contact" class="link-item btn-1 outer-shadow hover-in-shadow">Hire Me</a>
+            <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">📜 Resumo</a>
+            <a href="#contact" class="link-item btn-1 outer-shadow hover-in-shadow">📞 Contato</a>
           </div>
         </div>
         <!-- ABOUT TABS START -->
         <div class="row">
           <div class="about-tabs">
-            <span class="tab-item outer-shadow active" data-target=".skills">skills</span>
-            <span class="tab-item" data-target=".experience">experience</span>
-            <span class="tab-item" data-target=".education">education</span>
+            <span class="tab-item outer-shadow active" data-target=".skills">Habilidades</span>
+            <!-- <span class="tab-item" data-target=".experience">experiência</span> -->
+            <span class="tab-item" data-target=".education">Formação</span>
           </div>
         </div>
         <!-- ABOUT TABS END -->
@@ -517,7 +520,7 @@
       <div class="container">
         <div class="row">
           <div class="section-title">
-            <h2 data-heading="contact">Get in Touch</h2>
+            <h2 data-heading="contact">Contato</h2>
           </div>
         </div>
         <div class="row">
@@ -526,7 +529,7 @@
             <div class="contact-item-inner outer-shadow">
               <i class="fas fa-phone"></i>
               <span>Phone</span>
-              <p>000 120 210 09000</p>
+              <p>(86) 98989-8987</p>
             </div>
           </div>
           <!-- contact item end -->
@@ -535,16 +538,20 @@
             <div class="contact-item-inner outer-shadow">
               <i class="fas fa-envelope"></i>
               <span>Email</span>
-              <p>info@gmail.com</p>
+              <a href=""></a>
+              <a href="mailto:nowhere@mozilla.org?cc=name2@rapidtables.com&bcc=name3@rapidtables.com&amp;subject=The%20subject%20of%20the%20email &amp;body=The%20body%20of%20the%20email">
+                <p>alexsandro.dev001@gmail.com</p>
+               </a>
             </div>
           </div>
+          
           <!-- contact item end -->
           <!-- contact item start -->
           <div class="contact-item">
             <div class="contact-item-inner outer-shadow">
               <i class="fas fa-map-marker-alt"></i>
-              <span>Address</span>
-              <p>b/23 Sarita vihar, New Delhi - 8090</p>
+              <span>Endereço</span>
+              <p>Teresina/Piauí</p>
             </div>
           </div>
           <!-- contact item end -->
@@ -559,24 +566,10 @@
         <div class="pp-details-inner">
           <div class="pp-title">
             <h2>personal portfolio</h2>
-            <p>Category - <span class="pp-project-category">Web Application</span></p>
+            <p>Category - <span class="pp-project-category"></span></p>
           </div>
           <div class="pp-project-details">
-            <div class="row">
-              <div class="description">
-                <h3>Project Brief</h3>
-                <p>Morbi faucibus ultricies feugiat. Suspendisse potenti. Nullam congue felis nec orci elementum, eget hendrerit urna sodales. Maecenas arcu ipsum, pretium nec tellus sed, rutrum placerat diam.</p>
-              </div>
-              <div class="info">
-                <h3>Project Info</h3>
-                <ul>
-                  <li>Date - <span>2020</span></li>
-                  <li>Client - <span>xyz</span></li>
-                  <li>Tools - <span>html, css, JavaScript</span></li>
-                  <li>Web - <span><a href="#">www.domain.xom</a></span></li>
-                </ul>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -588,7 +581,7 @@
           <div class="pp-project-details-btn outer-shadow hover-in-shadow">Project Details <i class="fas fa-plus"></i></div>
           <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
           <img src="img/portfolio/large/project-1/1.png" alt="img" class="pp-img outer-shadow">
-          <div class="pp-counter">1 of 6</div>
+          <div class="pp-counter"></div>
         </div>
         <div class="pp-loader">
           <div></div>

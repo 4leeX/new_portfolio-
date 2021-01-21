@@ -1,0 +1,24 @@
+
+@media(max-width: 767px){
+    
+    .home-section .home-text,
+    .home-section .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home-section .home-text{
+        text-align: center;
+    }
+    .home-section .home-img{
+        visibility: hidden;
+    }
+}
+
+@media(max-width: 574px){
+    .home-section .home-img .img-box{
+        max-width: 260px;
+    }
+    .home-section .home-text h2{
+        font-size: 40px;
+    }
+}
