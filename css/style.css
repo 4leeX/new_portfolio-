@@ -423,7 +423,7 @@ header
 .about-section .about-img .img-box img{ /* segunda imagem */
     width: 100%;
     border: 10px solid transparent;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 .about-section .about-img .social-links{
